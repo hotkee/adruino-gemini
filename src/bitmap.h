@@ -109,7 +109,7 @@ class Bitmap
         }
     private:
         inline static u8 count4bit(u8 v){
-            static u8 count4bit_tab[] = {
+            static const u8 count4bit_tab[] = {
                 0, 1, 1, 2, 
                 1, 2, 2, 3, 
                 1, 2, 2, 3, 
